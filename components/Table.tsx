@@ -16,7 +16,7 @@ const Table = () => {
         <tr>
           {TABLEHEADINGS.map((tableHeading: string) => {
             return (
-              <th key={tableHeading} className="bg-pink-800 px-16 py-2">
+              <th key={tableHeading} className="bg-indigo-800 px-16 py-2">
                 <span className="text-white">{tableHeading}</span>
               </th>
             );
